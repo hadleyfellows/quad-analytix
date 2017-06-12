@@ -216,7 +216,7 @@ module.exports = __webpack_require__(132);
 
 var AppService = (function () {
     function AppService() {
-        this.url = 'http://hadleyfellows.com:3000';
+        this.url = 'http://localhost:3000';
     }
     AppService.prototype.crawlSite = function (siteURL) {
         this.socket.emit('crawl-site', siteURL);
